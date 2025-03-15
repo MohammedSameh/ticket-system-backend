@@ -32,7 +32,7 @@ To learn more about the template go to the [project website](https://github.com/
 ## 🚀 Steps to Setup & Running the Project
 
 1️⃣ Configure the Database Connection
-Open appsettings.json (or appsettings.Development.json).
+Open appsettings.json (do the same for appsettings.Development.json).
 
 Update the DefaultConnection string with your SQL Server instance:
 
