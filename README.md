@@ -2,6 +2,12 @@
 
 The project was generated using the [Clean.Architecture.Solution.Template](https://github.com/jasontaylordev/TicketSystem) version 8.0.6.
 
+## Output
+
+![screenshot](screenshots/be-1.png)
+
+![screenshot](screenshots/be-2.png)
+
 ## Build
 
 Run `dotnet build -tl` to build the solution.
