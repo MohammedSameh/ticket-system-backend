@@ -1,18 +1,36 @@
-📜 Ticket Management System - Backend
-This is the backend API for the Ticket Management System, built using .NET 8 following Clean Architecture (Jason Taylor's Template).
+# TicketSystem
 
-📌 Prerequisites
-Before running the project, ensure you have installed:
+The project was generated using the [Clean.Architecture.Solution.Template](https://github.com/jasontaylordev/TicketSystem) version 8.0.6.
 
-.NET 8 SDK
+## Build
 
-SQL Server (or use Azure SQL)
+Run `dotnet build -tl` to build the solution.
 
-EF Core CLI (if not installed, run):
+## Run
 
-sh
-dotnet tool install --global dotnet-ef
+To run the web application:
+
+```bash
+cd .\src\Web\
+dotnet watch run
+```
+
+Navigate to https://localhost:5001. The application will automatically reload if you change any of the source files.
+
+## Test
+
+The solution contains unit, integration, and functional tests.
+
+To run the tests:
+```bash
+dotnet test
+```
+
+## Help
+To learn more about the template go to the [project website](https://github.com/jasontaylordev/CleanArchitecture). Here you can find additional guidance, request new features, report a bug, and discuss the template with other users.
+
 🚀 Setup & Running the Project
+
 1️⃣ Configure the Database Connection
 Open appsettings.json (or appsettings.Development.json).
 
